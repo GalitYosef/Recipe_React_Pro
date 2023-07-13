@@ -1,0 +1,76 @@
+.newContainer {
+ 
+}
+.inpContainer {
+    gap:50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 2.2rem; */
+}
+
+.newContainer .signUpContainer  input {
+    padding: 10px;
+    direction: rtl;
+    z-index: 1;
+}
+
+.newContainer .signUpContainer .btn {
+  z-index: 1;
+  background: rgb(1, 1, 78);
+  color: white;
+  padding: 0.65rem 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.newContainer .signUpContainer .btn:hover{
+    cursor: pointer;
+}
+.newContainer .h1 {
+    color:brown;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.backgroundimage {
+    display: flex;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+    /* background-image: url('../../assets/8567.jpg'); */
+    width: 100%;
+    height: 17%;
+    /* filter: brightness(90%); */
+    /* -webkit-filter: blur(1px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(2px); */
+  }
+
+  .socialMedia {
+    position: relative;
+    padding-top: 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .socialMedia i{
+    z-index: 1;
+    font-size: 1.8rem;
+    margin: 0px 0 0 20px;
+    padding: 10px;
+    transition: .4s;
+    cursor: pointer;
+    color:rgb(1, 1, 78);
+  }
+
+  .socialMedia i:hover{
+    opacity: .8;
+    transform: translateY(-4px);
+	box-shadow: inset 0 -3px 0 0 rgba(67, 67, 67, 0.1), 0 6px 8px rgba(0,0,0,0.05), 0 24px 24px rgba(0,0,0,0.05), 0 36px 36px rgba(0,0,0,0.05), 0 64px 64px rgba(0,0,0,0.15), 0 64px 128px rgba(0,0,0,0.15), 0 86px 8px 6px;
+  }

@@ -1,0 +1,32 @@
+
+.moreBtnContainer {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 8%;
+}
+.moreBtn{
+    cursor: pointer;
+    background:transparent;
+    border: 1px solid #242424 ;
+    color:#242424;
+    font-weight: bolder;
+    padding: 13px 20px;
+    transition: .5s;
+}
+.moreBtn:hover{
+    background:#242424;
+    color: white;
+    transform: scale(1.1);
+    font-weight: bolder;
+}
+.spinBtn {
+    cursor: pointer;
+    color:#242424;
+    font-weight: bolder;
+    padding: 13px 20px;
+    transition: .2s;
+    background-color: transparent;
+}
+.spinBtn i {
+    font-size: 50pt;
+}

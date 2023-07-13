@@ -1,0 +1,158 @@
+.container {
+  padding: 7.4rem 16%;
+}
+.h3 {
+  text-align: center;
+  margin-top: 180px;
+  font-size: 19pt;
+}
+.recipeContainer {
+  border: 3.3px dashed rgb(145, 145, 145);
+  position: relative;
+  justify-content: center;
+  display: flex;
+  height: 125rem;
+  border-radius: 14px;
+}
+.recipeContainer .img {
+  width: 330px;
+  height: 330px;
+  object-fit: cover;
+  border-radius: 14px;
+  position: absolute;
+  top: -70px;
+  border: 8px solid white;
+}
+.recipeContainer h2 {
+  position: absolute;
+  z-index: 1;
+  top: 300px;
+  color: white;
+  font-weight: bold;
+}
+.recipeDetails {
+  width: 66%;
+  background-color: rgb(238, 238, 238);
+  box-shadow: rgba(227, 227, 227, 0.25) 0px 30px 60px -12px inset,
+    rgba(252, 240, 240, 0.3) 0px 18px 36px -18px inset;
+  padding: 2.7rem 6%;
+  height: min-content;
+  bottom: 50px;
+  position: absolute;
+  border-radius: 5px;
+  opacity: 0.9;
+  /* overflow: hidden; */
+}
+/* מרכיבים */
+.recipeDetails .p {
+  color: black;
+  display: inline;
+  text-align: right;
+  z-index: 1;
+}
+.recipeDetails div {
+  text-align: right;
+  margin: 20px 0px;
+  /* position: relative; */
+}
+.titleContainer1 {
+  padding: 4rem 0 0.5rem;
+}
+.titleContainer2 {
+  padding: 1.4rem 0 1rem;
+}
+.recipeDetails div .p {
+  padding-right: 0.6rem;
+}
+.Pmaking {
+  direction: rtl;
+  padding-right: 1.1rem;
+}
+.Padditions {
+  direction: rtl;
+  padding-right: 1.1rem;
+  list-style-type: square;
+}
+.count {
+  text-align: center !important;
+}
+.Ingredients {
+  display: flex;
+  direction: rtl;
+  align-items: center;
+}
+.checkbox{
+  transition: .5s;
+  accent-color: #9d3039;
+    height: 17px; /* not needed */
+    width: 17px; /* not needed */
+}
+
+/* ...... */
+.backgroundimage {
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: brightness(46%);
+}
+.mitzrachim,
+.ofenHachana {
+  text-align: center;
+  padding: 4px;
+}
+.titleRecipe {
+  font-size: 14pt;
+  font-weight: bold;
+  text-align: center !important;
+}
+
+.sharingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding: 2.7rem 0%;
+  border: 1px solid black;
+  position: relative;
+  max-width: 80rem;
+}
+.sharingTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  /* display: inline-block; */
+}
+.sharingTitle .p {
+  background-color: rgb(238, 238, 238);
+  display: inline-block;
+  position: absolute;
+  margin-top: 38px;
+  padding: 10px;
+}
+
+.iconCon {
+  width: max-content;
+  height: max-content;
+  text-align: center !important;
+  margin: 0 !important;
+}
+.iconCon img {
+  width: 40px;
+  height: 40px;
+  object-fit: scale-down;
+}
+.iconCon img:hover{
+  opacity: .8;
+  cursor: pointer;
+}
+
+

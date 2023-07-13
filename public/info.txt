@@ -1,0 +1,49 @@
+  //  להוספת אינפוט למצרכים
+  const handleClick = (e) => {
+    e.preventDefault();
+    setCounter(counter + 1);
+  };
+  // מחיקת אינפוט מצרכים
+  const delClick = () => {
+    setCounter(counter - 1);
+  };
+  // הוספת אינפוט לאופן הכנה
+  const handleClick2 = (e) => {
+    e.preventDefault();
+    setCounter2(counter2 + 1);
+  };
+  // מחיקת אינפוט מאופן הכנה
+  const delClick2 = () => {
+    setCounter2(counter2 - 1);
+  };
+  // הוספת אינפוט להערות והארות
+  const handleClick3 = (e) => {
+    e.preventDefault();
+    setCounter3(counter3 + 1);
+  };
+  // מחיקת אינפוט להארות והערות
+  const delClick3 = () => {
+    setCounter3(counter3 - 1);
+  };
+
+    {/* מצרכים */}
+                  {/* <div className={categoryCss.Mitzrachim}>
+                    <label for="name">:מצרכים</label>
+                    <input type="text" />
+                    <input type="text" />
+                    <input type="text" />
+
+                    {Array.from(Array(counter)).map((c, index) => {
+                      return (
+                        <>
+                          <div className={categoryCss.inputIcon}>
+                            <i class="bx bx-trash" onClick={delClick}></i>
+                            <input key={index} type="text"
+                            onChange={(e) => handleInputChange(index, e.target.value)}
+                            />
+                          </div>
+                        </>
+                      );
+                    })}
+                    <button onClick={handleClick}>+</button>
+                  </div> */}
